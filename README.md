@@ -1,5 +1,5 @@
 # Ringbuffer for n-dimensional data based on numpy
-This is a simple implementation for a ringbuffer based on python for n-dimensional data
+This is a simple implementation for a ringbuffer for n-dimensional data
 
 ## Examples
 ```python
@@ -59,9 +59,6 @@ second read index
   0.97516227  0.46809906  0.44071932  0.48524725]
 ```
 ``` python
-
-print('\n\n')
-
 # new buffer
 print('3 dimensional ring buffer')
 ring = Ringbuffer((6, 2, 2))
