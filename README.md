@@ -1,5 +1,5 @@
 # Ringbuffer for n-dimensional data based on numpy
-This is a simple implementation for a ringbuffer for n-dimensional data
+This is a simple implementation for a ringbuffer for n-dimensional data. The implementation allows for multple read indeces, e.g. for multiple processes reading the same data. In the current implementation an exception is raised if a process tries to overwrite data that has not been read.
 
 ## Examples
 ```python
